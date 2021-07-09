@@ -55,31 +55,31 @@ class BlogSider extends React.Component{
             <li className="nav-item active">
               <a className="nav-link" href="index.html">Home</a>
             </li>
-            <li className="nav-item"><a className="nav-link" href="about.html">About</a></li>
-            <li className="nav-item"><a className="nav-link" href="service.html">Services</a></li>
+            <li className="nav-item"><a className="nav-link" href="/About">About</a></li>
+            <li className="nav-item"><a className="nav-link" href="/Services">Services</a></li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="department.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Department <i className="icofont-thin-down" /></a>
+              <a className="nav-link dropdown-toggle" href="/Department" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Department <i className="icofont-thin-down" /></a>
               <ul className="dropdown-menu" aria-labelledby="dropdown02">
-                <li><a className="dropdown-item" href="department.html">Departments</a></li>
-                <li><a className="dropdown-item" href="department-single.html">Department Single</a></li>
+                <li><a className="dropdown-item" href="/Department">Departments</a></li>
+                <li><a className="dropdown-item" href="/Department/DepartmentSingle">Department Single</a></li>
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors <i className="icofont-thin-down" /></a>
+              <a className="nav-link dropdown-toggle" href="/Doctor" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors <i className="icofont-thin-down" /></a>
               <ul className="dropdown-menu" aria-labelledby="dropdown03">
-                <li><a className="dropdown-item" href="doctor.html">Doctors</a></li>
-                <li><a className="dropdown-item" href="doctor-single.html">Doctor Single</a></li>
-                <li><a className="dropdown-item" href="appoinment.html">Appoinment</a></li>
+                <li><a className="dropdown-item" href="/Doctor">Doctors</a></li>
+                <li><a className="dropdown-item" href="/Doctor/DoctorSingle">Doctor Single</a></li>
+                <li><a className="dropdown-item" href="/Appoinment">Appoinment</a></li>
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="blog-sidebar.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i className="icofont-thin-down" /></a>
+              <a className="nav-link dropdown-toggle" href="/BlogSlider" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i className="icofont-thin-down" /></a>
               <ul className="dropdown-menu" aria-labelledby="dropdown05">
-                <li><a className="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
-                <li><a className="dropdown-item" href="blog-single.html">Blog Single</a></li>
+                <li><a className="dropdown-item" href="/BlogSlider">Blog with Sidebar</a></li>
+                <li><a className="dropdown-item" href="/BlogSider/BlogSingle">Blog Single</a></li>
               </ul>
             </li>
-            <li className="nav-item"><a className="nav-link" href="contact.html">Contact</a></li>
+            <li className="nav-item"><a className="nav-link" href="/Contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -118,9 +118,9 @@ class BlogSider extends React.Component{
                     <span className="text-muted text-capitalize mr-3"><i className="icofont-comment mr-2" />5 Comments</span>
                     <span className="text-black text-capitalize mr-3"><i className="icofont-calendar mr-1" /> 28th January</span>
                   </div> 
-                  <h2 className="mt-3 mb-3"><a href="blog-single.html">Choose quality service over cheap service  all type of things</a></h2>
+                  <h2 className="mt-3 mb-3"><a href="/BlogSider/BlogSingle">Choose quality service over cheap service  all type of things</a></h2>
                   <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis aliquid architecto facere commodi cupiditate omnis voluptatibus inventore atque velit cum rem id assumenda quam recusandae ipsam ea porro, dicta ad.</p>
-                  <a href="blog-single.html" target="_blank" className="btn btn-main btn-icon btn-round-full">Read More <i className="icofont-simple-right ml-2  " /></a>
+                  <a href="/BlogSider/BlogSingle" target="_blank" className="btn btn-main btn-icon btn-round-full">Read More <i className="icofont-simple-right ml-2  " /></a>
                 </div>
               </div>
             </div>
@@ -134,9 +134,9 @@ class BlogSider extends React.Component{
                     <span className="text-muted text-capitalize mr-3"><i className="icofont-comment mr-2" />5 Comments</span>
                     <span className="text-black text-capitalize mr-3"><i className="icofont-calendar mr-1" /> 28th January</span>
                   </div> 
-                  <h2 className="mt-3 mb-3"><a href="blog-single.html">All test cost 25% in always in our laboratory</a></h2>
+                  <h2 className="mt-3 mb-3"><a href="/BlogSider/BlogSingle">All test cost 25% in always in our laboratory</a></h2>
                   <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis aliquid architecto facere commodi cupiditate omnis voluptatibus inventore atque velit cum rem id assumenda quam recusandae ipsam ea porro, dicta ad.</p>
-                  <a href="blog-single.html" target="_blank" className="btn btn-main btn-icon btn-round-full">Read More <i className="icofont-simple-right ml-2  " /></a>
+                  <a href="/BlogSider/BlogSingle" target="_blank" className="btn btn-main btn-icon btn-round-full">Read More <i className="icofont-simple-right ml-2  " /></a>
                 </div>
               </div>
             </div>
@@ -150,9 +150,9 @@ class BlogSider extends React.Component{
                     <span className="text-muted text-capitalize mr-3"><i className="icofont-comment mr-2" />5 Comments</span>
                     <span className="text-black text-capitalize mr-3"><i className="icofont-calendar mr-1" /> 28th January</span>
                   </div> 
-                  <h2 className="mt-3 mb-3"><a href="blog-single.html">Get Free consulation from our special surgeon and doctors</a></h2>
+                  <h2 className="mt-3 mb-3"><a href="/BlogSider/BlogSingle">Get Free consulation from our special surgeon and doctors</a></h2>
                   <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis aliquid architecto facere commodi cupiditate omnis voluptatibus inventore atque velit cum rem id assumenda quam recusandae ipsam ea porro, dicta ad.</p>
-                  <a href="blog-single.html" target="_blank" className="btn btn-main btn-icon btn-round-full">Read More <i className="icofont-simple-right ml-2  " /></a>
+                  <a href="/BlogSider/BlogSingle" target="_blank" className="btn btn-main btn-icon btn-round-full">Read More <i className="icofont-simple-right ml-2  " /></a>
                 </div>
               </div>
             </div>

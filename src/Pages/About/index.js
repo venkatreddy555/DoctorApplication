@@ -44,7 +44,7 @@ class About extends React.Component{
     <nav className="navbar navbar-expand-lg navigation" id="navbar">
       <div className="container">
         <a className="navbar-brand" href="index.html">
-          <img src="images/logo.png" alt className="img-fluid" />
+          <img src="../Images/logo.png" alt className="img-fluid" />
         </a>
         <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
           <span className="icofont-navigation-menu" />
@@ -110,7 +110,7 @@ class About extends React.Component{
         </div>
         <div className="col-lg-8">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, quod laborum alias. Vitae dolorum, officia sit! Saepe ullam facere at, consequatur incidunt, quae esse, quis ut reprehenderit dignissimos, libero delectus.</p>
-          <img src="images/about/sign.png" alt className="img-fluid" />
+          <img src="../Images/About/sign.png" alt className="img-fluid" />
         </div>
       </div>
     </div>
@@ -209,7 +209,7 @@ class About extends React.Component{
           <div className="team-block mb-5 mb-lg-0">
             <img src="images/team/1.jpg" alt className="img-fluid w-100" />
             <div className="content">
-              <h4 className="mt-4 mb-0"><a href="doctor-single.html">John Marshal</a></h4>
+              <h4 className="mt-4 mb-0"><a href="/Doctor/DoctorSingle">John Marshal</a></h4>
               <p>Internist, Emergency Physician</p>
             </div>
           </div>
@@ -218,7 +218,7 @@ class About extends React.Component{
           <div className="team-block mb-5 mb-lg-0">
             <img src="images/team/2.jpg" alt className="img-fluid w-100" />
             <div className="content">
-              <h4 className="mt-4 mb-0"><a href="doctor-single.html">Marshal Root</a></h4>
+              <h4 className="mt-4 mb-0"><a href="/Doctor/DoctorSingle">Marshal Root</a></h4>
               <p>Surgeon, Сardiologist</p>
             </div>
           </div>
@@ -227,7 +227,7 @@ class About extends React.Component{
           <div className="team-block mb-5 mb-lg-0">
             <img src="images/team/3.jpg" alt className="img-fluid w-100" />
             <div className="content">
-              <h4 className="mt-4 mb-0"><a href="doctor-single.html">Siamon john</a></h4>
+              <h4 className="mt-4 mb-0"><a href="/Doctor/DoctorSingle">Siamon john</a></h4>
               <p>Internist, General Practitioner</p>
             </div>
           </div>
@@ -236,7 +236,7 @@ class About extends React.Component{
           <div className="team-block">
             <img src="images/team/4.jpg" alt className="img-fluid w-100" />
             <div className="content">
-              <h4 className="mt-4 mb-0"><a href="doctor-single.html">Rishat Ahmed</a></h4>
+              <h4 className="mt-4 mb-0"><a href="/Doctor/DoctorSingle">Rishat Ahmed</a></h4>
               <p>Orthopedic Surgeon</p>
             </div>
           </div>

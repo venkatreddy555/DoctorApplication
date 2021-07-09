@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-
 class DoctorSingle extends React.Component{
     render(){
         return(
@@ -55,31 +54,31 @@ class DoctorSingle extends React.Component{
             <li className="nav-item active">
               <a className="nav-link" href="index.html">Home</a>
             </li>
-            <li className="nav-item"><a className="nav-link" href="about.html">About</a></li>
-            <li className="nav-item"><a className="nav-link" href="service.html">Services</a></li>
+            <li className="nav-item"><a className="nav-link" href="/About">About</a></li>
+            <li className="nav-item"><a className="nav-link" href="/Services">Services</a></li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="department.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Department <i className="icofont-thin-down" /></a>
+              <a className="nav-link dropdown-toggle" href="/Department" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Department <i className="icofont-thin-down" /></a>
               <ul className="dropdown-menu" aria-labelledby="dropdown02">
-                <li><a className="dropdown-item" href="department.html">Departments</a></li>
-                <li><a className="dropdown-item" href="department-single.html">Department Single</a></li>
+                <li><a className="dropdown-item" href="/Department">Departments</a></li>
+                <li><a className="dropdown-item" href="/Department/DepartmentSingle">Department Single</a></li>
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors <i className="icofont-thin-down" /></a>
+              <a className="nav-link dropdown-toggle" href="/Doctor" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors <i className="icofont-thin-down" /></a>
               <ul className="dropdown-menu" aria-labelledby="dropdown03">
-                <li><a className="dropdown-item" href="doctor.html">Doctors</a></li>
-                <li><a className="dropdown-item" href="doctor-single.html">Doctor Single</a></li>
-                <li><a className="dropdown-item" href="appoinment.html">Appoinment</a></li>
+                <li><a className="dropdown-item" href="/Doctor">Doctors</a></li>
+                <li><a className="dropdown-item" href="/Doctor/DoctorSingle">Doctor Single</a></li>
+                <li><a className="dropdown-item" href="/Appoinment">Appoinment</a></li>
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="blog-sidebar.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i className="icofont-thin-down" /></a>
+              <a className="nav-link dropdown-toggle" href="/BlogSlider" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i className="icofont-thin-down" /></a>
               <ul className="dropdown-menu" aria-labelledby="dropdown05">
-                <li><a className="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
-                <li><a className="dropdown-item" href="blog-single.html">Blog Single</a></li>
+                <li><a className="dropdown-item" href="/BlogSlider">Blog with Sidebar</a></li>
+                <li><a className="dropdown-item" href="/BlogSider/BlogSingle">Blog Single</a></li>
               </ul>
             </li>
-            <li className="nav-item"><a className="nav-link" href="contact.html">Contact</a></li>
+            <li className="nav-item"><a className="nav-link" href="/Contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -128,7 +127,7 @@ class DoctorSingle extends React.Component{
             <div className="divider my-4" />
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam tempore cumque voluptate beatae quis inventore sapiente nemo, a eligendi nostrum expedita veritatis neque incidunt ipsa doloribus provident ex, at ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, perferendis officiis esse quae, nobis eius explicabo quidem? Officia accusamus repudiandae ea esse non reiciendis accusantium voluptates, facilis enim, corrupti eligendi?</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo recusandae veritatis minus optio quod obcaecati laborum temporibus, deleniti vero perferendis molestias, ducimus facilis, sunt minima. Tempora, amet quasi asperiores voluptas?</p>
-            <a href="appoinment.html" className="btn btn-main-2 btn-round-full mt-3">Make an Appoinment<i className="icofont-simple-right ml-2  " /></a>
+            <a href="/Appoinment" className="btn btn-main-2 btn-round-full mt-3">Make an Appoinment<i className="icofont-simple-right ml-2  " /></a>
           </div>
         </div>
       </div>

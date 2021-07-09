@@ -1,12 +1,3 @@
-/*=== MEDIA QUERY ===*/
-/*
-Theme Name: Medic
-Author: Themefisher
-Author URI: https://themefisher.com/
-Description: Medicle Template
-Version: 1.0.0
-
-*/
 @import url("https://fonts.googleapis.com/css?family=Exo:500,600,700|Roboto&display=swap");
 html {
   overflow-x: hidden;
@@ -456,7 +447,7 @@ a:focus {
 }
 
 .bg-1 {
-  background: url("../images/bg/22.jpg") no-repeat 50% 50%;
+  background: url("../Images/Bg/22.jpg") no-repeat 50% 50%;
   background-size: cover;
   position: relative;
 }
@@ -465,7 +456,7 @@ a:focus {
   position: relative;
   overflow: hidden;
   background: #fff;
-  background: url("../images/bg/slider-bg-1.jpg") no-repeat;
+  background: url("../Images/Bg/slider-bg-1.jpg") no-repeat;
   background-size: cover;
   min-height: 550px;
 }
@@ -819,7 +810,7 @@ a:focus {
 }
 
 .cta {
-  background: url("../images/bg/bg-4.jpg") no-repeat 50% 50%;
+  background: url("../Images/Bg/bg-4.jpg") no-repeat 50% 50%;
   background-size: cover;
   position: relative;
 }
@@ -847,12 +838,12 @@ a:focus {
 }
 
 .cta-2 {
-  background: url("../images/bg/cta-bg.png") no-repeat;
+  background: url("../Images/Bg/bg-4.jpg") no-repeat;
   background-position: center center;
 }
 
 .cta-page {
-  background: url("../images/bg/banner.jpg") no-repeat;
+  background: url("../Images/Bg/banner.jpg") no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -868,7 +859,7 @@ a:focus {
   left: 0px;
   position: absolute;
   content: "";
-  background: url("../images/bg/bg-2.jpg") no-repeat 50% 50%;
+  background: url("../Images/Bg/bg-2.jpg") no-repeat 50% 50%;
 }
 
 .testimonial .slick-dots {

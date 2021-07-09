@@ -1,21 +1,30 @@
 import logo from './logo.svg';
 import  ReactDOM  from 'react-dom';
-import React from 'react';
+import React,{Component} from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import './Pages/About';
+import  './Pages/About';
 import './Pages/Services';
 import './Pages/Department';
 import './Pages/Department/DepartmentSingle';
 import './Pages/Doctor';
-import './Pages/Doctor/DoctorSingle'
-import './Pages/Appoinment'
-import './Pages/BlogSlider'
-import './Pages/BlogSlider/BlogSingle'
-import './Pages/Contact'
+import './Pages/Doctor/DoctorSingle';
+import './Pages/Appoinment';
+import './Pages/BlogSlider';
+import './Pages/BlogSlider/BlogSingle';
+import './Pages/Contact';
+import './Pages/css/style.css';
+import '../node_modules/slick-carousel/slick/slick-theme.css';
+import '../node_modules/slick-carousel/slick/slick.css';
+import Icofont from 'react-icofont';
+import Image from 'react-bootstrap/Image';
+import './Login'
+
+
 
 function App() {
   return (
     <div className="App">
+
   
   <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="description" content="Orbitor,business,company,agency,modern,bootstrap4,tech,software" />
@@ -54,9 +63,10 @@ function App() {
       </div>
     </div>
     <nav className="navbar navbar-expand-lg navigation" id="navbar">
+      
       <div className="container">
         <a className="navbar-brand" href="index.html">
-          <img src="images/logo.png" alt className="img-fluid" />
+          <img src="/images/logo.png" alt className="img-fluid" />
         </a>
         <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
           <span className="icofont-navigation-menu" />
@@ -79,7 +89,7 @@ function App() {
               <a className="nav-link dropdown-toggle" href="/Doctor" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors <i className="icofont-thin-down" /></a>
               <ul className="dropdown-menu" aria-labelledby="dropdown03">
                 <li><a className="dropdown-item" href="/Doctor">Doctors</a></li>
-                <li><a className="dropdown-item" href="/DoctorSingle">Doctor Single</a></li>
+                <li><a className="dropdown-item" href="/Doctor/DoctorSingle">Doctor Single</a></li>
                 <li><a className="dropdown-item" href="/Appoinment">Appoinment</a></li>
               </ul>
             </li>
@@ -158,8 +168,10 @@ function App() {
       <div className="row align-items-center">
         <div className="col-lg-4 col-sm-6">
           <div className="about-img">
-            <img src="src/Pages/images/about/img-1.jpg" alt className="img-fluid" />
-            <img src="src/Pages/images/about/img-2.jpg" alt className="img-fluid mt-4" />
+            <img src="images/about/img-1.jpg" alt className="img-fluid" />
+            {/* <img src="../Images/About/img-1.jpg" alt className="img-fluid" /> */}
+          
+            <img src="images/about/img-2.jpg" alt className="img-fluid mt-4" />
           </div>
         </div>
         <div className="col-lg-4 col-sm-6">
@@ -363,7 +375,7 @@ function App() {
               <div className="form-group-2 mb-4">
                 <textarea name="message" id="message" className="form-control" rows={6} placeholder="Your Message" defaultValue={""} />
               </div>
-              <a className="btn btn-main btn-round-full" href="appoinment.html">Make Appoinment <i className="icofont-simple-right ml-2  " /></a>
+              <a className="btn btn-main btn-round-full" href="/Appoinment">Make Appoinment <i className="icofont-simple-right ml-2  " /></a>
             </form>
           </div>
         </div>

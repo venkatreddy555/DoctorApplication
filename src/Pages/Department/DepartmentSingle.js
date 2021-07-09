@@ -55,31 +55,31 @@ class DepartmentSingle extends React.Component{
             <li className="nav-item active">
               <a className="nav-link" href="index.html">Home</a>
             </li>
-            <li className="nav-item"><a className="nav-link" href="about.html">About</a></li>
-            <li className="nav-item"><a className="nav-link" href="service.html">Services</a></li>
+            <li className="nav-item"><a className="nav-link" href="/About">About</a></li>
+            <li className="nav-item"><a className="nav-link" href="/Services">Services</a></li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="department.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Department <i className="icofont-thin-down" /></a>
+              <a className="nav-link dropdown-toggle" href="/Department" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Department <i className="icofont-thin-down" /></a>
               <ul className="dropdown-menu" aria-labelledby="dropdown02">
-                <li><a className="dropdown-item" href="department.html">Departments</a></li>
-                <li><a className="dropdown-item" href="department-single.html">Department Single</a></li>
+                <li><a className="dropdown-item" href="/Department">Departments</a></li>
+                <li><a className="dropdown-item" href="/Department/DepartmentSingle">Department Single</a></li>
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors <i className="icofont-thin-down" /></a>
+              <a className="nav-link dropdown-toggle" href="/Doctor" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors <i className="icofont-thin-down" /></a>
               <ul className="dropdown-menu" aria-labelledby="dropdown03">
-                <li><a className="dropdown-item" href="doctor.html">Doctors</a></li>
-                <li><a className="dropdown-item" href="doctor-single.html">Doctor Single</a></li>
-                <li><a className="dropdown-item" href="appoinment.html">Appoinment</a></li>
+                <li><a className="dropdown-item" href="/Doctor">Doctors</a></li>
+                <li><a className="dropdown-item" href="/Doctor/DoctorSingle">Doctor Single</a></li>
+                <li><a className="dropdown-item" href="/Appoinment">Appoinment</a></li>
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="blog-sidebar.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i className="icofont-thin-down" /></a>
+              <a className="nav-link dropdown-toggle" href="/BlogSlider" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i className="icofont-thin-down" /></a>
               <ul className="dropdown-menu" aria-labelledby="dropdown05">
-                <li><a className="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
-                <li><a className="dropdown-item" href="blog-single.html">Blog Single</a></li>
+                <li><a className="dropdown-item" href="/BlogSlider">Blog with Sidebar</a></li>
+                <li><a className="dropdown-item" href="/BlogSider/BlogSingle">Blog Single</a></li>
               </ul>
             </li>
-            <li className="nav-item"><a className="nav-link" href="contact.html">Contact</a></li>
+            <li className="nav-item"><a className="nav-link" href="/Contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -129,7 +129,7 @@ class DepartmentSingle extends React.Component{
               <li><i className="icofont-check mr-2" />Critical Care Medicine Specialists</li>
               <li><i className="icofont-check mr-2" />Emergency Assistance</li>
             </ul>
-            <a href="appoinment.html" className="btn btn-main-2 btn-round-full">Make an Appoinment<i className="icofont-simple-right ml-2  " /></a>
+            <a href="/Appoinment" className="btn btn-main-2 btn-round-full">Make an Appoinment<i className="icofont-simple-right ml-2  " /></a>
           </div>
         </div>
         <div className="col-lg-4">
